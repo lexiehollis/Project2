@@ -3,10 +3,10 @@
 ## Project Description
 Using data from the National Highway Traffic Aafety Administration, this project examined trends in vehicle-related injuries and fatalities. It looks at accidents involving motorized vehicles and their occupants as well as those affecting pedestrians and cyclists. Queries included the following: 
 
-**Age**: (A)What are the trends across the age continuum effect the fatality rate of riders/drivers vs pedestrians? Essentially, what ages are most likely to die inside the car, and what ages are most likely to die outside of the car? Are they the same, do the trends have any similarities?
-**Big Picture**: (B) Graph the trend of fatalities in entire USA, (C) then graph the trend of fatalities in individual states. What are the differences, do they all have the same basic movement upward and downwards? (D) Which states are safest (could be cross referenced with states with high public transport use to find correlation)?
-**Rural vs Urban**: (E)(F)Combine rural state data together and urban state data together, compare graphed trends (specifically death rates of vehicle types, and overall death rates across time).
-**Vehicle**: (G)(H)Find which vehicles are most dangerous to be around (kill passengers) vs most dangerous to be inside.
+**Big Picture**: Graph the trend of fatalities in entire USA, then graph the trend of fatalities in individual states. What are the differences, do they all have the same basic movement upward and downwards? Which states are safest (could be cross referenced with states with high public transport use to find correlation)?
+**Rural vs Urban**: Combine rural state data together and urban state data together, compare graphed trends (specifically death rates of vehicle types, and overall death rates across time).
+**Pedestrians**: What are the trends across the age continuum that affect the injury and fatality rate of pedestrians, nationwide and within individual states? What are the sex/gender trends? Are they the same, do the trends have any similarities?
+**Vehicle**: Find which vehicles are most dangerous to be around (those that result in fatalities) vs most dangerous to be inside.
 
 ## Technologies Used
 Intellij 2021.3.1
@@ -26,18 +26,18 @@ User Account Creation
 
 To Do List:
 AWS Integration
-Spark Submit
-More Complex Queries
+Package project with Spark Submit
+Create More Complex Queries
 
 ## Getting Started
-Setting up central project repository in Github
-Cloning central project repository to each participants Intellij (git clone -https://github.com/RevJustis/P2.git)
-Creation of separate branches in Github repository for queries, development, main, optimize, UI, userpass(user account information stored)
-Ingest data from Natioal Highway Traffic Safety Administration
-Downloading Zeppelin and launching in Intellij
+Set up central project repository in Github, which included creating separate branches in the repository for individual queries, development, main, optimization, User Interface, and Userpass (where user account information stored)
+Clone central project repository to each participant's Intellij
+Find data for project
+Ingest data from National Highway Traffic Safety Administration in the form of CSV files
+Download Zeppelin for presentation of project and launch in Intellij
 
 ## Usage
-When you run the project, you will initially be prompted to create an account (or if you already have one to log in). Then, a menu you of options appears that allows you to choose between topics related to our query categories above.  Within each of these topics, you will then be able to choose individual queries and see results of those queries.
+When users run the project, they will initially be prompted to create an account (or if they have one already to log in). Then, a menu of options appears that allows users to choose between topics related to our query categories above.  Within each of these topics, users will be able to choose individual queries and see results of those queries. 
 
 ## Contributors
 Jessica Hollis (Optimization Lead), Jonathan Cardoza (Visualization Lead), Justis Crocker (GitHub Admin/Owner, Team Lead), Patrick Brown (Co-Admin/Lead).
